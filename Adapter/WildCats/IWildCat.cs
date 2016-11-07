@@ -1,4 +1,4 @@
-﻿namespace Adapter.MartianCats
+﻿namespace Adapter.WildCats
 {
     interface IWildCat
     {

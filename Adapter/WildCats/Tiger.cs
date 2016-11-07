@@ -1,5 +1,4 @@
-﻿using Adapter.MartianCats;
-using System;
+﻿using System;
 
 namespace Adapter.WildCats
 {

@@ -4,6 +4,6 @@
     {
         string Breed { get; }
         void Purr();
-        void Сaress();
+        void Scratch();
     }
 }
