@@ -1,1 +1,6 @@
 E:\Enginearing\Adapter\Adapter\bin\Debug\Adapter.exe.config
+E:\Enginearing\Adapter\Adapter\bin\Debug\Adapter.exe
+E:\Enginearing\Adapter\Adapter\bin\Debug\Adapter.pdb
+E:\Enginearing\Adapter\Adapter\obj\Debug\Adapter.csprojResolveAssemblyReference.cache
+E:\Enginearing\Adapter\Adapter\obj\Debug\Adapter.exe
+E:\Enginearing\Adapter\Adapter\obj\Debug\Adapter.pdb
