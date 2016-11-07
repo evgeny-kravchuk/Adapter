@@ -1,4 +1,6 @@
 ﻿using Adapter.HomeCats;
+using Adapter.MartianCats;
+using Adapter.WildCats;
 using System;
 
 namespace Adapter
@@ -7,13 +9,21 @@ namespace Adapter
     {
         static void Main()
         {
-            IHomeCat Masha = new PedigreedCat();
-            Masha.Name = "Маша";
-            CatPrinter.PrintCatInfo(Masha);
+            IHomeCat masha = new PedigreedCat();
+            masha.Name = "Маша";
+            CatPrinter.PrintCatInfo(masha);
 
-            IHomeCat Marko = new YardCat();
-            Marko.Name = "Марко";
-            CatPrinter.PrintCatInfo(Marko);
+            IHomeCat marko = new YardCat();
+            marko.Name = "Марко";
+            CatPrinter.PrintCatInfo(marko);
+
+            IWildCat tiger = new Tiger();
+            CatsAdapterForWild wildAdapter = new CatsAdapterForWild(tiger);
+            CatPrinter.PrintCatInfo(wildAdapter);
+
+            IMartianCat creeot = new Creeot();
+            CatsAdapterForMartian martianAdapter = new CatsAdapterForMartian(creeot);
+            CatPrinter.PrintCatInfo(martianAdapter);
 
             Console.ReadLine();
         }
