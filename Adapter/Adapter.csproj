@@ -44,14 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CatPrinter.cs" />
-    <Compile Include="CatsAdapter.cs" />
+    <Compile Include="CatsAdapterForMartian.cs" />
+    <Compile Include="CatsAdapterForWild.cs" />
     <Compile Include="HomeCats\IHomeCat.cs" />
     <Compile Include="HomeCats\PedigreedCat.cs" />
     <Compile Include="HomeCats\YardCat.cs" />
+    <Compile Include="MartianCats\Creeot.cs" />
     <Compile Include="MartianCats\IMartianCat.cs" />
     <Compile Include="WildCats\IWildCat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WildCats\Tiger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -3,11 +3,11 @@ using Adapter.WildCats;
 
 namespace Adapter
 {
-    class CatsAdapter : IHomeCat
+    class CatsAdapterForWild : IHomeCat
     {
         private IWildCat _wildCat;
 
-        public CatsAdapter(IWildCat wildCat)
+        public CatsAdapterForWild(IWildCat wildCat)
         {
             _wildCat = wildCat;
         }
